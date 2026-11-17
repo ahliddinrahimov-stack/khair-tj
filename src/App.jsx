@@ -221,22 +221,7 @@ useEffect(() => {
             Воридшавӣ / Сабти ном
           </button>
 
-<button
-  onClick={() => {
-    setShowAuth(false);
-    setShowAdmin(true);
-  }}
-  style={{
-    background: "#145c3b",
-    color: "white",
-    padding: "11px 17px",
-    border: "none",
-    borderRadius: "8px",
-    cursor: "pointer"
-  }}
->
-  Admin
-</button>
+
 
         </nav>
       </header>
