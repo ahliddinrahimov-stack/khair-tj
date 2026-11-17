@@ -221,7 +221,7 @@ useEffect(() => {
             Воридшавӣ / Сабти ном
           </button>
 
-{(window.location.hostname === "localhost" || window.location.hostname === "khair-tj.vercel.app") && (
+{window.location.hostname === "localhost" && (
   <button
     onClick={() => {
       setShowAuth(false);
